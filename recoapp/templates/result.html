@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <h2> 剖析.... </h1>
+        {% for lign in text %}
+        <p>{{ lign }}</p>
+        <br>
+        {% endfor %}
+{% endblock %}

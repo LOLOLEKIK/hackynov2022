@@ -1,0 +1,36 @@
+</html lang=zh-Hans>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>RECOAPP</title>
+</head>
+<body>
+    <h1>RECOAPP</h1>
+
+    <p>这个应用程序是为识别危险情况而开发的。<br>
+
+    <strong>严格禁止未经授权的使用。</strong><br>
+
+    如果这个代码不属于你，请不要使用它，并立即向主管部门报告。. <br>
+</p>
+<div class=in>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input name='img' value="{{ request.form['img'] }}" type="file" accept=".jpg">
+        <br>
+        <input class=out type="submit" value="训练">
+    </form>
+
+    <div class="result">
+        {% block content %} {% endblock %}
+    </div>
+    <p>请注意，我们正在开发一个全新的系统脚本，以分析每个单词，检查它是否合适。</p>
+</div>
+
+
+    
+</body>
+<footer>
+    <p>© 2022 LOLOLEKIK</p>
+</footer>
+
+</html>

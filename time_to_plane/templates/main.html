@@ -1,0 +1,21 @@
+</html lang=fr>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>TIME TO PLANE</title>
+</head>
+<body>
+    <h1 class=titre>TIME TO PLANE</h1>
+    <p> Bienvenue dans la nouvelle plateforme de supervision d'avion ! <br>
+        Afin de pouvoir vous y connecter le traitement de vos requêtes ne doit pas excéder les 10 secondes </p> <br>
+       <p> Si vous essayez de vous connecter alors que le serveur ne peut plus traiter les demandes dans un delai raisonnable alors vous serez considéré comme complice </p> 
+
+
+        {% block content %} {% endblock %}
+
+
+</body>
+<footer>
+    <p>© 2022 LOLOLEKIK</p>
+</footer>
+</html>

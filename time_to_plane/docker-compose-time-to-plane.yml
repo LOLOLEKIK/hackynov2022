@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  flask:
+    image: registry.hackynov.fr/chall_time_to_plane
+    container_name: container_time_to_plane
+    restart: always
+    ports:
+      - 54778:5000
+    environment:
+      - FLASK_APP=app

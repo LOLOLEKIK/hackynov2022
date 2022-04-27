@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class=container>
+   <p class=text-time> Test de connexion :</p> <p class=time>{{ g.request_time() }}</p>
+</div>
+<div class=container>
+<img src="{{ url_for('static', filename= 'img/green.webp') }}" class=green_i>
+<h1 class=green_t> Green flag </h1>
+</div>
+<h2> Votre connexion est assez bonne pour accèder à l'espace de supervision </h2>
+<form action="/" method="post">
+    <label>Quelle avion voulez-vous superviser ?</label>
+    <input type=text name=id_avion>
+    <input type="submit" value="Check">
+</form>
+<p> {{ id_avion }} </p>
+{% endblock %}

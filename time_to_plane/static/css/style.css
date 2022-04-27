@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.red_t, .green_t{
+    margin-left: 100px;
+}
+
+.red_i, .green_i{
+     width: 4%;
+     height: auto;
+}
+
+.titre{
+    width: 100%;
+    color: blue;
+}
+
+.time{
+    border: 1px solid;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+    width: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-time{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+body{
+    background-image: url('../img/plane.jpg');
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.green_t{
+    color: green;
+    text-transform: uppercase;
+}
+
+.red_t{
+    color: red;
+    text-transform: uppercase;
+}

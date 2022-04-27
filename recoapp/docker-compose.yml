@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  flask:
+    image: registry.hackynov.fr/chall_recoapp
+    container_name: container_recoapp
+    restart: always
+    ports:
+      - 54777:5000
+    environment:
+      - FLASK_APP=app

@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class=container>
+    <img src="{{ url_for('static', filename= 'img/red.png') }}" class=red_i>
+<h1 class=red_t> HACKING DETECT </h1>
+</div>
+<p> Vous avez essayez de nous <strong>attaquer</strong> </p><br>
+<p> Cet événement a été reporté car il est contraire à l'utilisation de notre outil de supervision </p></br>
+<p> <strong>Sachez que la vie de milliers de voyageurs est en jeu...</strong>
+
+{% endblock %}

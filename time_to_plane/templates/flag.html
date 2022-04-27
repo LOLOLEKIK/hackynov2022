@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class=container>
+<img src="{{ url_for('static', filename= 'img/red.png') }}" class=red_i>
+<h1 class=red_t> Hacky flag </h1>
+</div>
+<p> Vous voulez saboter notre réseau aérien ! </p>
+<h3> HACKYNOV{PLANE_NEVER_SLEEP_OR_CRASH}</h3>
+{% endblock %}

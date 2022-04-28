@@ -1,3 +1,3 @@
 # Writeups
 
-Pour voire les writeups rdv ici : https://lololekik.com/writeups/hackynov2022/
+Pour voir les writeups rdv ici : https://lololekik.com/writeups/hackynov2022/
